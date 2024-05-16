@@ -15,7 +15,7 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///movie-collection.db"
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 Bootstrap5(app)
 
-# CREATE DB
+# CREATE DB --
 class Base(DeclarativeBase):
   pass
 
